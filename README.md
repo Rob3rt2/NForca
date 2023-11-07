@@ -11,7 +11,7 @@ Este projeto apresenta o jogo da forca, programado em JavaScript (JS) e seguindo
 
 **Caso de uso geral:** Adivinhar a palavra.
 
-**Jogador principal:** Jogador
+**Jogador Principal:** Jogador
 
 **Jogador Secundário:** PC
 
