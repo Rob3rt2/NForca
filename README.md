@@ -29,7 +29,7 @@ Este projeto apresenta o jogo da forca, programado em JavaScript (JS) e seguindo
 
 # Diagrama de Atividade
 
-![Diagrama Atv Forca](https://github.com/Rob3rt2/NForca/assets/128638269/2d700e50-f931-4215-a1a6-015d2742057f)
+![Diagrama atv Forca 2](https://github.com/Rob3rt2/NForca/assets/128638269/c671d25a-f95c-4de2-a74c-327bf3e634a6)
 
 # Desenvolvimento 
 Após realizarmos os diagramas, começamosa preparar o Front-End do nosso site. 
