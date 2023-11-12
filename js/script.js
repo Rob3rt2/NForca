@@ -57,28 +57,27 @@ class Forca {
     }
     //metodo de verificar palpite
     verificarPalpite(event) {
-        
-        const letra = event.key.toUpperCase(); //coloca a tecla digitada em uma conts "Letra"
-      
-        if (this.palavraS.includes(letra)) {
-           
-            if (!this.letraDescoberta.has(letra)) { //verifica se existe na palavra sorteada
-                this.letraDescoberta.add(letra);
-                this.desenharLetra(letra);
-                this.letraCor++; // se sim, desenha a letra a partir do metodo desenharLetra
-            }
-        } else {
-            this.letraErrada++;// se não adiciona uma peça do boneco
-          
+        const letra = event.key.toUpperCase();
+
+        if (!this.letraDescoberta.has(letra)) {
+            this.letraDescoberta.add(letra);
+
             
+
+            if (this.palavraS.includes(letra)) {
+                this.desenharLetra(letra);
+                this.letraCor++;
+            } else {
+                this.letraErrada++;
+            }
+            // Atualiza as letras utilizadas no canvas
+            const canvas = document.getElementById("canvas");
+            const ctx = canvas.getContext("2d");
+            ctx.font = "30px Verdana";
+            ctx.fillText("Utilizadas: " + [...this.letraDescoberta].join(", "), 800, 650);
+            this.verificarLetra();
         }
-         // mostra as letras já utilizadas
-       const canvas = document.getElementById("canvas");
-       const ctx = canvas.getContext("2d");
-       ctx.font = "30px Verdana";
-       ctx.fillText("Utilizadas: " + [...this.letraDescoberta].join(", "), 800, 650);
-        this.verificarLetra();
-      
+    
 
     }
 //ira desenhar a letra correta no qual foi clicada
@@ -108,20 +107,29 @@ class Forca {
        
     }
 //verifica o fim do jogo, tanto para vitoria, quanto para a derrota
-    verificarLetra() {
-        const canvas = document.getElementById("canvas");
-        const ctx = canvas.getContext("2d");
-        
-        const letrasUnicas = new Set(this.palavraS.split('')); // Obtém as letras únicas da palavra
-        if (this.letraErrada >= this.maxErros) {
-            ctx.font = "30px Verdana";
-            ctx.fillText(`0 vidas, fim de jogo. A palavra correta era ${this.palavraS}`, 700, 100);
-            document.removeEventListener('keydown', this.verificarPalpite);
-        } else if (this.letraDescoberta.size === letrasUnicas.size) { // Compara o tamanho do conjunto de letras descobertas com as letras únicas
+verificarLetra() {
+    const canvas = document.getElementById("canvas");
+    const ctx = canvas.getContext("2d");
+
+    if (this.letraErrada >= this.maxErros) {
+        ctx.font = "30px Verdana";
+        ctx.fillText(`0 vidas, fim de jogo. A palavra correta era ${this.palavraS}`, 700, 100);
+        document.removeEventListener('keydown', this.verificarPalpite);
+    } else {
+        let letrasCorretas = 0;
+        for (let i = 0; i < this.palavraS.length; i++) {
+            if (this.letraDescoberta.has(this.palavraS[i])) {
+                letrasCorretas++;
+            }
+        }
+
+        if (letrasCorretas === this.palavraS.length) {
             ctx.font = "30px Verdana";
             ctx.fillText("Palavra completa! Parabéns!!!", 700, 100);
             document.removeEventListener('keydown', this.verificarPalpite);
         }
+    }
+
     }
 }
 //classe para desenhar cada parte do boneco
