@@ -31,7 +31,7 @@ Este projeto apresenta o jogo da forca, programado em JavaScript (JS) e seguindo
 
 ![Diagrama atv Forca 2](https://github.com/Rob3rt2/NForca/assets/128638269/c671d25a-f95c-4de2-a74c-327bf3e634a6)
 
-## Tela Inicial 
+# Tela Inicial 
 
 img tela inicial>
 
@@ -45,7 +45,7 @@ Scripts como **lineTo** e **moveTo** foram utilizados para desenhar a forca, os 
 
 # Esclarecendo Scripts 
 
-- **Em primeiro plano, declaramos os atributos da Classe Forca.**
+- **Em primeiro plano, declaramos os atributos da Classe Forca, que seram as palavras adivinhadas no Jogo da Forca.**
 
 img do Script>
 
@@ -53,7 +53,7 @@ img do Script>
 
 img do Script>
 
-- **Seguindo, colocamos os textos com o nome do jogo e os tipos de palavras que definimos, que seriam Animais.**
+- **Continuando, colocamos os textos com o nome do jogo e os tipos de palavras que definimos, que seriam Animais.**
 
 img do Script>
 
@@ -69,11 +69,11 @@ img do Script>
 
 img do script>
 
-- **O script irá desenhar a letra correta na tela.**
+- **Seguindo, o script irá desenhar a letra correta na tela.**
 
 img do script> 
 
-- **Continuando, o script identificará o fim de jogo. Sendo para Vitória ou Derrota.
+- **Continuando, o script identificará o fim de jogo, sendo para Vitória ou Derrota.**
 
 img do script> 
 
@@ -89,7 +89,7 @@ img do script>
 
 img do script> 
 
-# Imagens de Funcionamento 
+# Imagens de Criação 
 
 img de funcionamento> 
 
