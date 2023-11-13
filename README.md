@@ -83,7 +83,7 @@ img do script>
 
 - **Ao decorrer do código, agora o script nos apresentará desenhando os seguimentos dos bonecos conforme as letras erradas forem pressionadas.**
 
-  img do Script>
+img do Script>
 
 - **Finalizando, as linhas de código a seguir chamam todos os métodos das Classes Forca e Boneco.**
 
