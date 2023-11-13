@@ -3,8 +3,11 @@ Este projeto apresenta o jogo da forca, programado em JavaScript (JS) e seguindo
 
 **Orientadora:** Nivia Maria Domingues
 
-## Autores
-**Criadores:** Letícia da Lapa e Robert Caio Gomes
+# Autores
+**Criadores:** Letícia da Lapa e Robert Caio Gomes Mota
+
+# Diagramas 
+Para o projeto, desenvolvemos os seguintes Diagramas: Diagrama de Caso de Uso, Diagrama de Classe e Diagrama de Atividade.
 
 ## Diagrama de Caso de Uso
 **Nome do Caso de Uso:** Jogo da Forca
@@ -35,7 +38,7 @@ Este projeto apresenta o jogo da forca, programado em JavaScript (JS) e seguindo
 
 img tela inicial>
 
-## Desenvolvimento 
+# Desenvolvimento 
 Após realizarmos os diagramas, começamos a preparar o Front-End do nosso site. 
 - **Script:**
 
@@ -43,7 +46,7 @@ Após realizarmos os diagramas, começamos a preparar o Front-End do nosso site.
 
 Scripts como **lineTo** e **moveTo** foram utilizados para desenhar a forca, os traços para as letras e a maior parte dos elementos que compõe a cena.
 
-# Esclarecendo Scripts 
+## Esclarecendo Scripts 
 
 - **Em primeiro plano, declaramos os atributos da Classe Forca, que seram as palavras adivinhadas no Jogo da Forca.**
 
