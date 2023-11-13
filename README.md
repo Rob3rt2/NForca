@@ -41,21 +41,21 @@ Scripts como **lineTo** e **moveTo** foram utilizados para desenhar a forca, os 
 
 # Esclarecendo Scripts 
 
-**- Em primeiro plano, declaramos os atributos da Classe Forca.**
+- **Em primeiro plano, declaramos os atributos da Classe Forca.**
 
 img do Script>
 
-**- Em seguida, montamos o script que irá desenhar os elementos no canvas.**
+- **Em seguida, montamos o script que irá desenhar os elementos no canvas.**
 
 img do Script>
 
-**- Seguindo, colocamos os textos com o nome do jogo e os tipos de palavras que definimos, que seriam Animais.
+- **Seguindo, colocamos os textos com o nome do jogo e os tipos de palavras que definimos, que seriam Animais.
 
 img do Script>
 
-**- Consoante a isso, fizemos o script para o método de desenhar as linhas.
+- **Consoante a isso, fizemos o script para o método de desenhar as linhas.**
 
 img do Script>
 
-**- Script para detectar o palpite do jogador.**
+- **Script para detectar o palpite do jogador.**
 
