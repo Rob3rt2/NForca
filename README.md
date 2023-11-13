@@ -15,7 +15,7 @@ Este projeto apresenta o jogo da forca, programado em JavaScript (JS) e seguindo
 
 **Jogador Secundário:** PC
 
-**Resumo:** Um jogo com partidas alternadas para o descobrimento de uma palavra aleatória, descobrindo letra a letra,acrescentando partes de um desenho enforcado a cada letra incorreta, até que a palavra seja adivinhada ou o desenho seja completo. 
+**Resumo:** Um jogo com partidas alternadas para o descobrimento de uma palavra aleatória, descobrindo letra a letra, acrescentando partes de um desenho enforcado a cada letra incorreta, até que a palavra seja adivinhada ou o desenho seja completo. 
 
 **Pré-Condições:** Sistema gerar palavra aleatória.
 
@@ -31,8 +31,12 @@ Este projeto apresenta o jogo da forca, programado em JavaScript (JS) e seguindo
 
 ![Diagrama atv Forca 2](https://github.com/Rob3rt2/NForca/assets/128638269/c671d25a-f95c-4de2-a74c-327bf3e634a6)
 
+## Tela Inicial 
+
+img tela inicial>
+
 ## Desenvolvimento 
-Após realizarmos os diagramas, começamosa preparar o Front-End do nosso site. 
+Após realizarmos os diagramas, começamos a preparar o Front-End do nosso site. 
 - **Script:**
 
 ![image](https://github.com/Rob3rt2/NForca/assets/127865166/26fa5ee7-662e-4d7a-b14c-17744907df49)
@@ -49,7 +53,7 @@ img do Script>
 
 img do Script>
 
-- **Seguindo, colocamos os textos com o nome do jogo e os tipos de palavras que definimos, que seriam Animais.
+- **Seguindo, colocamos os textos com o nome do jogo e os tipos de palavras que definimos, que seriam Animais.**
 
 img do Script>
 
@@ -58,4 +62,34 @@ img do Script>
 img do Script>
 
 - **Script para detectar o palpite do jogador.**
+
+img do Script> 
+
+- **A seguir, o script irá identificar e desenhar a letra correta pressionada pelo jogador no teclado.** 
+
+img do script>
+
+- **O script irá desenhar a letra correta na tela.**
+
+img do script> 
+
+- **Continuando, o script identificará o fim de jogo. Sendo para Vitória ou Derrota.
+
+img do script> 
+
+- **O script que desenhará cada parte do corpo do boneco, presente na Classe Boneco.**
+
+img do script> 
+
+- **Ao decorrer do código, agora o script nos apresentará desenhando os seguimentos dos bonecos conforme as letras erradas forem pressionadas.**
+
+  img do Script>
+
+- **Finalizando, as linhas de código a seguir chamam todos os métodos das Classes Forca e Boneco.**
+
+img do script> 
+
+# Imagens de Funcionamento 
+
+img de funcionamento> 
 
